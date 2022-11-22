@@ -27,12 +27,6 @@ export class Ruta extends Entity {
   })
   tiempo_estimado: string;
 
-  // Define well-known properties here
-
-  // Indexer property to allow additional data
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [prop: string]: any;
-
   constructor(data?: Partial<Ruta>) {
     super(data);
   }
